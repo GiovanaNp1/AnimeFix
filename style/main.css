@@ -13,7 +13,6 @@ body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    h
 }
 
 header{
@@ -48,7 +47,7 @@ header nav a:hover{
 
 .anime-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0, 1.05), rgba(0,0,0, .05)100%), url('../img/houseki.png');
+    background:linear-gradient(rgba(20,20,20, 1.05), rgba(0,0,0, .05)100%), url('../img/houseki.png');
     height: 500px;
     background-size: cover;
 
@@ -83,4 +82,16 @@ header nav a:hover{
 .botao:hover{
    background-color: white;
    color: black;
+}
+
+.botao i{
+    margin-right: 10px;
+}
+
+.container{
+    margin-left: 25px;
+}
+
+.anime-principal .container{
+    width: 60%;
 }
